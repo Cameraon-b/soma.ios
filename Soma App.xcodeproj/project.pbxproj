@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F4B0322E580DEB00BBDC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B0232E580DEB00BBDC9F /* AppDelegate.swift */; };
+		50F4B0332E580DEB00BBDC9F /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B0262E580DEB00BBDC9F /* BreathingViewController.swift */; };
+		50F4B0342E580DEB00BBDC9F /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B0282E580DEB00BBDC9F /* JournalViewController.swift */; };
+		50F4B0352E580DEB00BBDC9F /* MeditationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B02D2E580DEB00BBDC9F /* MeditationsViewController.swift */; };
+		50F4B0362E580DEB00BBDC9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B02E2E580DEB00BBDC9F /* SceneDelegate.swift */; };
+		50F4B0372E580DEB00BBDC9F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B02F2E580DEB00BBDC9F /* SettingsViewController.swift */; };
+		50F4B0382E580DEB00BBDC9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4B0302E580DEB00BBDC9F /* ViewController.swift */; };
+		50F4B0392E580DEB00BBDC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B0242E580DEB00BBDC9F /* Assets.xcassets */; };
+		50F4B03C2E580DEB00BBDC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B02A2E580DEB00BBDC9F /* LaunchScreen.storyboard */; };
+		50F4B03D2E580DEB00BBDC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B02C2E580DEB00BBDC9F /* Main.storyboard */; };
+		50F4B0402E58107E00BBDC9F /* meditation_5min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B03F2E58107E00BBDC9F /* meditation_5min.mp3 */; };
+		50F4B0422E58169B00BBDC9F /* newBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B0412E58169B00BBDC9F /* newBG.png */; };
+		50F4B0442E58189D00BBDC9F /* newLaunchBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B0432E58189D00BBDC9F /* newLaunchBG.png */; };
+		50F4B0462E581A3700BBDC9F /* meditation_10min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B0452E581A3700BBDC9F /* meditation_10min.mp3 */; };
+		50F4B0482E581B3800BBDC9F /* meditation_20min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50F4B0472E581B3800BBDC9F /* meditation_20min.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505E911A2E517327005FBB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505E90FB2E517324005FBB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505E91022E517324005FBB47;
+			remoteInfo = "Soma App";
+		};
+		505E91242E517327005FBB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 505E90FB2E517324005FBB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 505E91022E517324005FBB47;
+			remoteInfo = "Soma App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		505E91032E517324005FBB47 /* Soma App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soma App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505E91192E517327005FBB47 /* Soma AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soma AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		505E91232E517327005FBB47 /* Soma AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soma AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F4B0232E580DEB00BBDC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50F4B0242E580DEB00BBDC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F4B0262E580DEB00BBDC9F /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
+		50F4B0272E580DEB00BBDC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F4B0282E580DEB00BBDC9F /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		50F4B0292E580DEB00BBDC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F4B02B2E580DEB00BBDC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F4B02D2E580DEB00BBDC9F /* MeditationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsViewController.swift; sourceTree = "<group>"; };
+		50F4B02E2E580DEB00BBDC9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50F4B02F2E580DEB00BBDC9F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		50F4B0302E580DEB00BBDC9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50F4B03F2E58107E00BBDC9F /* meditation_5min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation_5min.mp3; sourceTree = "<group>"; };
+		50F4B0412E58169B00BBDC9F /* newBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newBG.png; sourceTree = "<group>"; };
+		50F4B0432E58189D00BBDC9F /* newLaunchBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newLaunchBG.png; sourceTree = "<group>"; };
+		50F4B0452E581A3700BBDC9F /* meditation_10min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation_10min.mp3; sourceTree = "<group>"; };
+		50F4B0472E581B3800BBDC9F /* meditation_20min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation_20min.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		505E911C2E517327005FBB47 /* Soma AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Soma AppTests";
+			sourceTree = "<group>";
+		};
+		505E91262E517327005FBB47 /* Soma AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Soma AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		505E91002E517324005FBB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E91162E517327005FBB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E91202E517327005FBB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		505E90FA2E517324005FBB47 = {
+			isa = PBXGroup;
+			children = (
+				50F4B0312E580DEB00BBDC9F /* Soma App */,
+				505E911C2E517327005FBB47 /* Soma AppTests */,
+				505E91262E517327005FBB47 /* Soma AppUITests */,
+				505E91042E517324005FBB47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		505E91042E517324005FBB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505E91032E517324005FBB47 /* Soma App.app */,
+				505E91192E517327005FBB47 /* Soma AppTests.xctest */,
+				505E91232E517327005FBB47 /* Soma AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F4B0312E580DEB00BBDC9F /* Soma App */ = {
+			isa = PBXGroup;
+			children = (
+				50F4B03E2E580EFE00BBDC9F /* Audio */,
+				50F4B0232E580DEB00BBDC9F /* AppDelegate.swift */,
+				50F4B0242E580DEB00BBDC9F /* Assets.xcassets */,
+				50F4B0412E58169B00BBDC9F /* newBG.png */,
+				50F4B0432E58189D00BBDC9F /* newLaunchBG.png */,
+				50F4B0262E580DEB00BBDC9F /* BreathingViewController.swift */,
+				50F4B0272E580DEB00BBDC9F /* Info.plist */,
+				50F4B0282E580DEB00BBDC9F /* JournalViewController.swift */,
+				50F4B02A2E580DEB00BBDC9F /* LaunchScreen.storyboard */,
+				50F4B02C2E580DEB00BBDC9F /* Main.storyboard */,
+				50F4B02D2E580DEB00BBDC9F /* MeditationsViewController.swift */,
+				50F4B02E2E580DEB00BBDC9F /* SceneDelegate.swift */,
+				50F4B02F2E580DEB00BBDC9F /* SettingsViewController.swift */,
+				50F4B0302E580DEB00BBDC9F /* ViewController.swift */,
+			);
+			path = "Soma App";
+			sourceTree = "<group>";
+		};
+		50F4B03E2E580EFE00BBDC9F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				50F4B03F2E58107E00BBDC9F /* meditation_5min.mp3 */,
+				50F4B0452E581A3700BBDC9F /* meditation_10min.mp3 */,
+				50F4B0472E581B3800BBDC9F /* meditation_20min.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		505E91022E517324005FBB47 /* Soma App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505E912C2E517327005FBB47 /* Build configuration list for PBXNativeTarget "Soma App" */;
+			buildPhases = (
+				505E90FF2E517324005FBB47 /* Sources */,
+				505E91002E517324005FBB47 /* Frameworks */,
+				505E91012E517324005FBB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soma App";
+			packageProductDependencies = (
+			);
+			productName = "Soma App";
+			productReference = 505E91032E517324005FBB47 /* Soma App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		505E91182E517327005FBB47 /* Soma AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505E91312E517327005FBB47 /* Build configuration list for PBXNativeTarget "Soma AppTests" */;
+			buildPhases = (
+				505E91152E517327005FBB47 /* Sources */,
+				505E91162E517327005FBB47 /* Frameworks */,
+				505E91172E517327005FBB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505E911B2E517327005FBB47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				505E911C2E517327005FBB47 /* Soma AppTests */,
+			);
+			name = "Soma AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Soma AppTests";
+			productReference = 505E91192E517327005FBB47 /* Soma AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		505E91222E517327005FBB47 /* Soma AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505E91342E517327005FBB47 /* Build configuration list for PBXNativeTarget "Soma AppUITests" */;
+			buildPhases = (
+				505E911F2E517327005FBB47 /* Sources */,
+				505E91202E517327005FBB47 /* Frameworks */,
+				505E91212E517327005FBB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505E91252E517327005FBB47 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				505E91262E517327005FBB47 /* Soma AppUITests */,
+			);
+			name = "Soma AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Soma AppUITests";
+			productReference = 505E91232E517327005FBB47 /* Soma AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		505E90FB2E517324005FBB47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					505E91022E517324005FBB47 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					505E91182E517327005FBB47 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 505E91022E517324005FBB47;
+					};
+					505E91222E517327005FBB47 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 505E91022E517324005FBB47;
+					};
+				};
+			};
+			buildConfigurationList = 505E90FE2E517324005FBB47 /* Build configuration list for PBXProject "Soma App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 505E90FA2E517324005FBB47;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 505E91042E517324005FBB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				505E91022E517324005FBB47 /* Soma App */,
+				505E91182E517327005FBB47 /* Soma AppTests */,
+				505E91222E517327005FBB47 /* Soma AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505E91012E517324005FBB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F4B0392E580DEB00BBDC9F /* Assets.xcassets in Resources */,
+				50F4B03C2E580DEB00BBDC9F /* LaunchScreen.storyboard in Resources */,
+				50F4B0462E581A3700BBDC9F /* meditation_10min.mp3 in Resources */,
+				50F4B0442E58189D00BBDC9F /* newLaunchBG.png in Resources */,
+				50F4B0422E58169B00BBDC9F /* newBG.png in Resources */,
+				50F4B0482E581B3800BBDC9F /* meditation_20min.mp3 in Resources */,
+				50F4B0402E58107E00BBDC9F /* meditation_5min.mp3 in Resources */,
+				50F4B03D2E580DEB00BBDC9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E91172E517327005FBB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E91212E517327005FBB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		505E90FF2E517324005FBB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F4B0322E580DEB00BBDC9F /* AppDelegate.swift in Sources */,
+				50F4B0332E580DEB00BBDC9F /* BreathingViewController.swift in Sources */,
+				50F4B0342E580DEB00BBDC9F /* JournalViewController.swift in Sources */,
+				50F4B0352E580DEB00BBDC9F /* MeditationsViewController.swift in Sources */,
+				50F4B0362E580DEB00BBDC9F /* SceneDelegate.swift in Sources */,
+				50F4B0372E580DEB00BBDC9F /* SettingsViewController.swift in Sources */,
+				50F4B0382E580DEB00BBDC9F /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E91152E517327005FBB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E911F2E517327005FBB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505E911B2E517327005FBB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505E91022E517324005FBB47 /* Soma App */;
+			targetProxy = 505E911A2E517327005FBB47 /* PBXContainerItemProxy */;
+		};
+		505E91252E517327005FBB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 505E91022E517324005FBB47 /* Soma App */;
+			targetProxy = 505E91242E517327005FBB47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F4B02A2E580DEB00BBDC9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F4B0292E580DEB00BBDC9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50F4B02C2E580DEB00BBDC9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F4B02B2E580DEB00BBDC9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		505E912D2E517327005FBB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soma App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Soma-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		505E912E2E517327005FBB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soma App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Soma-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		505E912F2E517327005FBB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		505E91302E517327005FBB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		505E91322E517327005FBB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Soma-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soma App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soma App";
+			};
+			name = Debug;
+		};
+		505E91332E517327005FBB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Soma-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soma App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soma App";
+			};
+			name = Release;
+		};
+		505E91352E517327005FBB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Soma-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soma App";
+			};
+			name = Debug;
+		};
+		505E91362E517327005FBB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cameron.Soma-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soma App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		505E90FE2E517324005FBB47 /* Build configuration list for PBXProject "Soma App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505E912F2E517327005FBB47 /* Debug */,
+				505E91302E517327005FBB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505E912C2E517327005FBB47 /* Build configuration list for PBXNativeTarget "Soma App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505E912D2E517327005FBB47 /* Debug */,
+				505E912E2E517327005FBB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505E91312E517327005FBB47 /* Build configuration list for PBXNativeTarget "Soma AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505E91322E517327005FBB47 /* Debug */,
+				505E91332E517327005FBB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		505E91342E517327005FBB47 /* Build configuration list for PBXNativeTarget "Soma AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505E91352E517327005FBB47 /* Debug */,
+				505E91362E517327005FBB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 505E90FB2E517324005FBB47 /* Project object */;
+}
